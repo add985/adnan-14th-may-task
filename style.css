@@ -1,0 +1,249 @@
+/* write your styles here */
+body {
+    margin:0;
+    padding:0;
+}
+marquee {
+    background-color: #ed484c;
+    color:#ffffff;
+    font-size:20px;
+}
+
+#main-head {
+    display: flex;
+    justify-content:space-between;
+    background-color: #4c4c4c;
+}
+div img {
+    width: 100px;
+    height:5vh;
+    padding:14px;
+    margin:2px;
+}
+div ul {
+    list-style-type: none;
+    padding:5px 20px;
+}
+div ul li {
+    display: inline-block;
+    margin-top:15px;
+    margin-left:25px;
+    margin-right:15px;
+}
+div li a {
+    text-decoration: none;
+    color:#cacaca;
+    font-size: 16px;
+}
+ul li:hover a {
+    color: white;
+}
+.circle {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+   background-color:#f18d97c7;
+   background-image:url("images/floral.png");
+   padding:40px;
+}
+.title {
+     text-align: center;
+    font-size: 2em;
+     color:#000000;
+}
+.para-1 {
+    border-top:1px solid #000;
+    border-bottom:1px solid #000;
+    color:#000;
+    width:50%;
+    margin:10px;
+    padding:2px;
+    font-size: 1.5em;
+}
+.button {
+    background-color: #160d0e;
+    color:#f18d97;
+    text-align: center;
+    font-size:1.5em;
+    margin:3px 2px 12px 2px;
+    padding:1.1em 3.5em;
+    border:none;   
+}
+.circle:hover button {
+    background-color:lightcoral;
+    color: #000;
+    transition:1s;
+}
+.Service {
+    background-image: url("images/floral.png");
+    background-color: #f0ece7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title-2 {
+    text-align: center;
+    color:#000000;
+    font-size: 2.5em;
+}
+.Service div{
+    display: flex;
+    justify-content: center;
+}
+.Service figure{
+    text-align: center;
+}
+.Service figure > i{
+    font-size: 7em;
+}
+.Service i:hover{
+    transition: 1s;
+    color: rgb(236, 72, 72);
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    flex-direction: column;
+    background-image: url("images/floral.png");
+    background-color: #ddceb4;
+}
+.title-3 {
+    text-align: center;
+    color:#000000;
+    font-size: 2.5em;
+}
+
+.para-2 {
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom:1px solid black;
+    width:40%;
+    padding:10px;
+    font-size: 1.5em;
+}
+.container div {
+    display: flex;
+    justify-content: center;
+}
+
+#figure>img {
+    border-radius:10%;
+    height:200px;
+    width: 250px;
+}
+ 
+#figure {
+    position: relative;
+}
+
+.figcaption {
+    display:none;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-direction:column;
+    height: 210px;
+    width: 260px;
+    margin:10px;
+   background-color:#080808;   
+   position: absolute;
+   top:0;
+   left:0;
+   border-radius:10%;
+}
+.bata {
+    color:#e1deda;
+}
+.figcaption i {
+    font-size: 1em;
+   
+}
+.figcaption button {
+    border: 1px solid white;
+    border-radius: 100%;
+    background-color: #141415e3;
+    color: white;
+    padding:10px;
+   margin:5px;
+} 
+#figure:hover .figcaption  {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    opacity:0.8;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+ figcaption button:hover {
+    background-color:blue;
+    color:white;
+}
+
+.Contact {
+    background-image: url("images/floral.png");
+    background-color: #afc7c6;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding:40px;
+}
+.text {
+    text-align: center;
+    margin:2px;
+}
+
+ .twitter-btn {
+  background-color:#afc7c699;
+  color:#212121;
+  border: 1px solid #212121;
+  font-size: 1.4em;
+  padding:14px;
+  border-radius:50%;
+  margin:4px;
+ }
+ .youtube-btn {
+    background-color:#afc7c699;
+    color:#212121;
+    border: 1px solid #212121;
+    font-size: 1.4em;
+    padding:14px;
+   border-radius:50%;
+   margin:4px;
+ }
+ .facebook-btn {
+    background-color:#afc7c699;
+    color:#212121;
+    border: 1px solid #212121; 
+    font-size: 1.4em;
+    padding:14px;
+    border-radius:50%;
+    margin:4px;
+ }
+ button:hover {
+    background-color: black;
+    color: #fcdea6;
+    transition: 1s;
+ }
+ #footer {
+     background-color: #212121;
+     padding:60px;
+ }
+ .para-3 {   
+    color:#f8f8ff;
+    text-align: center;
+    font-size: 1.2em;
+ }
+ #footer i {
+     margin:2px;
+     font-size: 1.2em;
+ }
+ #footer:hover i {
+     color:red;
+     transition: 1s;
+ }
+ 
