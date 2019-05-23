@@ -106,7 +106,7 @@ ul li:hover a {
     display: flex;
     justify-content: center;
    align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     background-image: url("images/floral.png");
     background-color: #ddceb4;
 }
@@ -246,4 +246,11 @@ ul li:hover a {
      color:red;
      transition: 1s;
  }
- 
+ @media screen only (max-width:600px) {
+     .Services {
+         display:flex;
+         flex-direction:row;
+     }
+     .porfolio {
+         display:grid;
+        gid-template-coloumn:
